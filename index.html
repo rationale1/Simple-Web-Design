@@ -3,99 +3,150 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Acme Web Design | Home</title>
+    <title>Acme Web Solutions</title>
+
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="header-flex">
-          <div id="branding">
-            <h1><span class="highlight">Acme</span> Web Design</h1>
-          </div>
+    <!--*................. Header ShowCase .......* -->
+    <header id="showcase" class="grid">
+      <div class="bg-image"></div>
 
-          <nav>
-            <ul>
-              <li class="current"><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="services.html">Services</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
+      <h1>Welcome to Acme Web Solutions</h1>
+
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, illum
+        mollitia veritatis placeat nihil quidem dolorem qui temporibus officiis
+        dolorum?
+      </p>
+
+      <a href="#section-b" class="btn">Read More</a>
     </header>
 
-    <section id="showcase">
-      <div class="container">
-        <h1>Affordable Professional Web Design</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-          obcaecati enim natus voluptatum laborum,
-        </p>
-      </div>
-    </section>
+    <!-- Main Area -->
+    <main id="main">
+      <!--*................. Section - A .........*-->
+      <section id="section-a" class="grid">
+        <div class="content-wrap">
+          <h2 class="content-title">Web & Application Development</h2>
 
-    <section id="newsletter">
-      <div class="container">
-        <div id="newsletter-flex">
-          <h1>Subscribe to our Newsletter</h1>
-
-          <form>
-            <input type="email" placeholder="Enter Email.." />
-
-            <button type="submit" class="button_1">Subscribe</button>
-          </form>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis,
+            nihil accusantium dicta ut quas harum, delectus odio suscipit
+            adipisci ipsam commodi non tempore. Eligendi, aspernatur commodi
+            itaque sed iste quasi perspiciatis minus, at omnis nemo molestias
+            dicta fuga, consequuntur quis.
+          </p>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="boxes">
-      <div class="container">
-        <div class="boxes-flex">
-          <div class="box">
-            <img
-              src="./img/107043360_3146479495467087_4867636552636368722_n.jpg"
-              alt="nothing"
-            />
+      <!--*................. Section - B .......*-->
+      <section id="section-b" class="grid">
+        <ul>
+          <li>
+            <div class="card">
+              <img src="./img/uploadImg.jpg" alt="image-here" />
 
-            <h3>HTML5 MARKUP</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Quibusdam veritatis placeat quo omnis ab dolorem, earum explicabo
-              modi beatae consectetur.
-            </p>
-          </div>
+              <div class="card-content">
+                <h3 class="card-title">Web Development</h3>
+              </div>
 
-          <div class="box">
-            <img
-              src="./img/91597629_10157989427358001_4684420078404370432_n.jpg"
-              alt="nothing"
-            />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                necessitatibus iusto pariatur deserunt recusandae ipsa quidem?
+                Corporis debitis tenetur nesciunt.
+              </p>
+            </div>
+          </li>
 
-            <h3>CSS3 Styling</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Quibusdam veritatis placeat quo omnis ab dolorem, earum explicabo
-              modi beatae consectetur.
-            </p>
-          </div>
+          <li>
+            <div class="card">
+              <img
+                src="./img/91597629_10157989427358001_4684420078404370432_n.jpg"
+                alt="image-here"
+              />
 
-          <div class="box">
-            <img src="./img/Screenshot_2020_0404_192639.png" alt="others" />
+              <div class="card-content">
+                <h3 class="card-title">Web Development</h3>
+              </div>
 
-            <h3>Graphics Design</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Quibusdam veritatis placeat quo omnis ab dolorem, earum explicabo
-              modi beatae consectetur.
-            </p>
-          </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                necessitatibus iusto pariatur deserunt recusandae ipsa quidem?
+                Corporis debitis tenetur nesciunt.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div class="card">
+              <img
+                src="./img/107043360_3146479495467087_4867636552636368722_n.jpg"
+                alt="image-here"
+              />
+
+              <div class="card-content">
+                <h3 class="card-title">Web Development</h3>
+              </div>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                necessitatibus iusto pariatur deserunt recusandae ipsa quidem?
+                Corporis debitis tenetur nesciunt.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <!--*................. Section C.......*  -->
+      <section id="section-c" class="grid">
+        <div class="content-wrap">
+          <h2 class="content-title">We handle all of your digital needs</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+            velit reprehenderit doloribus at, tempore inventore ad ut aliquam
+            repudiandae voluptatibus.
+          </p>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <footer>
-      <p>Acme Web Design, Copyright &copy; 2021</p>
+      <!--*................. Section D .............-->
+      <section id="section-d" class="grid">
+        <div class="box">
+          <h2 class="content-title">Contact Use</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto illo
+            natus modi quod sequi dolores minus, quidem dignissimos veniam
+            incidunt.
+          </p>
+
+          <p>contact@acmewebsolutions.test</p>
+        </div>
+
+        <div class="box">
+          <h2 class="content-title">About Our Company</h2>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
+            architecto est vel repellat voluptatem assumenda, ab dolores,
+            tenetur obcaecati, amet voluptatibus aspernatur! Nihil, natus eaque
+            maxime explicabo commodi consequuntur deleniti!
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!--*................. Footer...............* -->
+    <footer id="main-footer" class="grid">
+      <div>Acme Web Solutions</div>
+
+      <div>
+        Project By
+        <a href="http://travestymedia.com" target="_blank">Travesy Media</a>
+      </div>
     </footer>
   </body>
 </html>
