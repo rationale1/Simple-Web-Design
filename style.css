@@ -1,28 +1,39 @@
 :root {
   --white: #fff;
-  --orange: #e8491d;
+  --background: #333;
   --light-grey: #f4f4f4;
-  --blue-grey: #35424a;
   --bold: 700;
 }
 
+/*...................Core Styles...........*/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* body {
-  background-color: var(--light-grey);
+body {
+  background-color: var(--background);
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   line-height: 1.5;
   font-size: 15px;
-  font-size: 1em;
-} */
-
-ul {
-  list-style-type: none;
+  font-size: 1.1em;
+  text-align: center;
 }
 
-.container {
+img {
+  display: block;
+  /* width: 100%; */
+  width: 200px;
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  padding: 1em 0;
+}
+
+p {
+  padding: 1em 0;
 }
