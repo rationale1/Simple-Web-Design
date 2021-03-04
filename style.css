@@ -67,3 +67,61 @@ body {
 }
 
 /*.................Top Container........*/
+.top-container {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "showcase showcase top-box-a"
+    "showcase showcase top-box-b";
+}
+
+/*.................Showcase........*/
+.showcase {
+  grid-area: showcase;
+  min-height: 400px;
+  background: url("./img/images-4.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-shadow: var(--shadow);
+}
+
+.showcase h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  color: blue;
+}
+
+.showcase p {
+  font-size: 1.3rem;
+  margin-top: 0;
+  color: var(--light);
+}
+
+/*.................Top Box........*/
+.top-box {
+  background: var(--primary);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+}
+
+.top-box .price {
+  font-size: 2.5rem;
+}
+
+.top-box-a {
+  grid-area: top-box-a;
+}
+
+.top-box-b {
+  grid-area: top-box-b;
+}
+
+/*.................Boxes........*/
